@@ -11,16 +11,51 @@
 #innerbox{
     display: flex;
     background-color: #fff;
-    width: 60%;
+    width: 55%;
     height: 500px;
+    margin-top: 15px;
 }
 .leftinnerbox{
     background-color: #2847f0;
     color: #fff;
     font-family: sans-serif;
+    width: 40%;
+    background-image: url(	https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
 }
 .rightinnerbox{
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    width: 60%;
+}
+.rightinnerbox > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.rightinnerbox input{
+    width: 70%;
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.rightinnerbox p{
+    text-align: center;
+    font-size: 16px;
+    margin: 40px 8px 0px 8px;
+}
+.rightinnerbox button{
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 90%;
+    padding: 9px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.continue:hover{
+    cursor: pointer;
 }
