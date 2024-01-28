@@ -1,8 +1,5 @@
 let getUserData = JSON.parse(localStorage.getItem("userData")) || [];
 
-// console.log(getUserData)
-
-
 function Signup(){
     let username = document.getElementById("naam").value;
     let mobile = document.getElementById("phone").value;
@@ -26,8 +23,10 @@ function Signup(){
         localStorage.setItem("userData", JSON.stringify(users));
 
         alert("Signup Successful");
-        window.location.href = "sign.html";
+        window.location.href = "signin.html";
     }
+
+    // localStorage.clear();
 
 }
 
