@@ -19,6 +19,7 @@ function Signin(){
         if(mobile == getUsersdata[i].mobile){
             if(password == getUsersdata[i].password){
                 console.log("Sign in Successful");
+                window.location.href = "index.html";
             }
             else{
                 console.log("Invalid password")
@@ -29,6 +30,7 @@ function Signin(){
         }
     }
     if(count == getUsersdata.length){
-        alert("Users is Not registered, Signup up to Continue")
+        alert("Users is Not registered, Signup up to Continue");
+        window.location.href = "signup.html";
     }
 }
